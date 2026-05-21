@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Products</title>
+
+  <link rel="stylesheet" href="products.css">
+
+<link rel="manifest" href="../manifest.json">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Products</h1>
+
+    <input type="text" id="productName" placeholder="Product Name">
+
+    <input type="number" id="productPrice" placeholder="Price">
+
+    <input type="number" id="productStock" placeholder="Stock Quantity">
+
+    <button onclick="addProduct()">Add Product</button>
+
+    <button onclick="logout()">Logout</button>
+
+    <button onclick="goSales()">Sales</button>
+
+    <button onclick="goDashboard()">
+  Dashboard
+</button>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <div id="productList"></div>
+
+  </div>
+
+  <script type="module" src="products.js"></script>
+
+</body>
+
+</html>

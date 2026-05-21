@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sales</title>
+
+  <link rel="stylesheet" href="sales.css">
+
+<link rel="manifest" href="../manifest.json">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Sales System</h1>
+
+    <select id="productSelect"></select>
+
+    <input type="number" id="quantity" placeholder="Quantity">
+
+    <button onclick="makeSale()">Record Sale</button>
+
+    <button onclick="goProducts()">Products</button>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <div id="salesList"></div>
+
+  </div>
+
+  <script type="module" src="sales.js"></script>
+
+</body>
+
+</html>
